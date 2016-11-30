@@ -25,10 +25,11 @@ The application is accepted if:
 ## 6. Question time! (~30 mins) [6p]
 
 ### Explain the algorithm used in exercise 2. Use a flowchart, structogram or pseudo code. [2p]
-#### Your answer:
+#### Your answer: First the function tests whether the given file exists. If not, the returned value is zero. If it exists, it loops through the letters of the given filename and checks, whether the letter is an 'a' or not. If so, it increases the counter by 1. When it is finished with the last letter in the filename, it returns the value of the counter. You can see how it works on the flowchart: flowchart_2py.png
 
 ### How can you get a random number in python? [2p]
-#### Your answer:
+#### Your answer: If you import Python's random module, you can use the randint built-in function, which can generate a random integer between the borders that you allow. For example, if you call random.randint(1, 5), it will give you a random integer, which is bigger than 0, but not bigger than 5.
+####An other option is to use the choice built-in function (also from the random module). With the choice function, you can choose a random element from a given list. So, if we add numbers to a list, we can choose random numbers from it.
 
 ### What does M stand for in MVC? [2p]
-#### Your answer:
+#### Your answer: M means the Model part of the MVC structure. The model part contains all the necessary information, how the program is built-up, how the logical elements are connected in our code.
